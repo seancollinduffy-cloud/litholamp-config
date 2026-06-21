@@ -1,0 +1,11 @@
+node_modules/
+.next/
+venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+litholamp-api_backup_2026-06-21/
+litholamp_remote_backup/
+voronoid-web/
+litholamp-api/customer_renders/

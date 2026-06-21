@@ -1,0 +1,41 @@
+{
+    "action": "prepare",
+    "version": 1,
+    "input": {
+        "kind": "SCENE_SETTINGS",
+        "version": 1,
+        "global": {
+            "kind": "GLOBAL_SETTINGS",
+            "version": 1,
+            "machine_type": "Form 4",
+            "material": {
+                "type": {
+                    "name": "FLGPCL",
+                    "version": 5
+                },
+                "thickness_mm": 0.1
+            },
+            "layout": "auto",
+            "repair_behavior": "repair"
+        },
+        "models": [
+            {
+                "model_file": "C:\\Users\\seanc\\Downloads\\litholamp-fullstack\\litholamp-api\\test_part.stl",
+                "settings": {
+                    "kind": "MODEL_SETTINGS",
+                    "version": 1,
+                    "scale": 1.0,
+                    "units": "mm",
+                    "orientation": "auto",
+                    "support_settings": {
+                        "raft_type": "FULL_RAFT",
+                        "density": 1.0,
+                        "touchpoint_size_mm": 0.3,
+                        "internal_supports_enabled": false
+                    }
+                }
+            }
+        ]
+    },
+    "output": "C:\\Users\\seanc\\Downloads\\litholamp-fullstack\\litholamp-api\\ready_to_print_v5.form"
+}
